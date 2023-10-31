@@ -6,10 +6,11 @@ describe('AuthLinksComponent', () => {
   let component: AuthLinksComponent;
   let fixture: ComponentFixture<AuthLinksComponent>;
 
-  beforeEach(() => {
+  beforeEach(async () => {
     TestBed.configureTestingModule({
       declarations: [AuthLinksComponent]
-    });
+    })
+    .compileComponents();
     fixture = TestBed.createComponent(AuthLinksComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
