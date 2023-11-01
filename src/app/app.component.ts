@@ -7,6 +7,8 @@ import { Component, HostListener } from '@angular/core';
 })
 export class AppComponent {
 
+  title = '';
+
   isMenuScrolled = false;
   isSidebarShowing = false;
 
