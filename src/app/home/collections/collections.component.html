@@ -8,10 +8,11 @@
     align="L"></app-heading>
   <div class="container  mx-auto">
     <app-slider class="block rounded-3xl bg-emerald-50 p-2 py-5 sm:p-10"
-      *ngIf="this.collections.length>0" [items]="this.categories" (select)="filterCollections($event)"></app-slider>
+      *ngIf="this.categories.length>0" [items]="this.categories" (select)="filterCollections($event)"></app-slider>
   </div>
   <div class="mt-12 container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-    <app-card ></app-card>
+        <app-card></app-card>
+        
   </div>
   <div class="flex justify-center mt-16">
     <app-button name="Other Collections" size="L" shade="D" animation="C"  ></app-button>

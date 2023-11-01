@@ -17,7 +17,7 @@ export class CollectionsComponent implements OnInit {
   constructor(private httpClient: HttpClient) {}
 
   ngOnInit(): void {
-
+   this.getAllCollections()
   }
 
   getAllCollections() {
