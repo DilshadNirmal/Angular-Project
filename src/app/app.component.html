@@ -1,1 +1,31 @@
+<nav class="absolute w-full top-0 left-0 h-screen z-50 {{isSidebarShowing ? 'flex' : 'hidden'}}">
+  <div class="bgwhite w-full md:max-w-sm shadow-2xl">
+    <div class="flex justify-end p-5">
+      <svg (click)="this.closeSideBar()" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+          stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m-15 0l15 15" />
+      </svg>
+    </div>
+  </div>
+</nav>
+
+<header class="absolute w-full z-40">
+  <div class="bg-slate-800 hidden lg:block">
+    <div class="container tex-white py-2">
+      <ul class="flex justify-between">
+        <li></li>
+        <li>
+          <img src="../assets/shapes/shape-1.webp" alt="shape-1">
+        </li>
+        <li></li>
+        <li></li>
+        <li>
+          <img src="../assets/shapes/shape-2.webp" alt="shape-2">
+        </li>
+        <li></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
 <router-outlet></router-outlet>
