@@ -13,6 +13,8 @@ import { AllCollectionsComponent } from './all-collections/all-collections.compo
 import { HeadingComponent } from './shared/heading/heading.component';
 import { SliderComponent } from './shared/slider/slider.component';
 import { CardComponent } from './shared/card/card.component';
+import { CourseFooterComponent } from './shared/card/course-footer/course-footer.component';
+import { BlogFooterComponent } from './shared/card/blog-footer/blog-footer.component';
 
 
 @NgModule({
@@ -27,6 +29,8 @@ import { CardComponent } from './shared/card/card.component';
     HeadingComponent,
     SliderComponent,
     CardComponent,
+    CourseFooterComponent,
+    BlogFooterComponent,
   ],
   imports: [
     BrowserModule,

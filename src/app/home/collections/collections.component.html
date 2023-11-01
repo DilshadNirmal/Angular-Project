@@ -12,8 +12,6 @@
   </div>
   <div class="mt-12 container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <app-card *ngFor="let course of this.filteredCollections" class="w-full" type="C" [input]="course"></app-card>
-        
-        
   </div>
   <div class="flex justify-center mt-16">
     <app-button name="Other Collections" size="L" shade="D" animation="C"  ></app-button>

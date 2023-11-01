@@ -17,7 +17,7 @@ export class CardComponent implements OnInit {
 
   constructor() {}
 
-  castToCourse(input:Collection|Blog){
+  castToCollection(input:Collection|Blog){
     return input as Collection;
   }
 
