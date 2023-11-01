@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 <nav class="absolute w-full top-0 left-0 h-screen z-50 {{isSidebarShowing ? 'flex' : 'hidden'}}">
   <div class="bgwhite w-full md:max-w-sm shadow-2xl">
     <div class="flex justify-end p-5">
@@ -45,7 +43,16 @@
       </ul>
     </div>
   </div>
+
+  <div class="px-5 {{isMenuScrolled ? 'fixed top-0 w-full bg-white shadow-xl animate-slideInDown animate-faster' : 'pt-10'}}">
+    <div class="py-5 flex items-center justify-between container {{isMenuScrolled ? '' : 'border'}} border-emerald-500 border-opacity-30 rounded-xl">
+      <a href="">
+        <img src="../assets/SabiArc.png" alt="sabi's arc">
+      </a>
+    </div>
+  </div>
 </header>
 
+
+
 <router-outlet></router-outlet>
->>>>>>> c5e0e41d1ebd335f2cebb0cb82bbe094b54984f2
