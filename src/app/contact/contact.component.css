@@ -1,3 +1,17 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.section-subscribe .envelop {
+  margin: auto;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  display: table;
+}
+
 .btn:not(:disabled):not(.disabled) {
     cursor: pointer;
 }
