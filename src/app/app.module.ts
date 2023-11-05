@@ -23,6 +23,7 @@ import { EmailComponent } from './shared/email/email.component';
 import { PhoneComponent } from './shared/phone/phone.component';
 import { SocialLinksComponent } from './shared/social-links/social-links.component';
 import { SubscribeFormComponent } from './shared/subscribe-form/subscribe-form.component';
+import { BookStackComponent } from './shared/book-stack/book-stack.component';
 
 
 @NgModule({
@@ -46,6 +47,7 @@ import { SubscribeFormComponent } from './shared/subscribe-form/subscribe-form.c
     PhoneComponent,
     SocialLinksComponent,
     SubscribeFormComponent,
+    BookStackComponent,
   ],
   imports: [
     BrowserModule,

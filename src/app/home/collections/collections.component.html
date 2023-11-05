@@ -14,6 +14,6 @@
         <app-card *ngFor="let course of this.filteredCollections" class="w-full" type="C" [input]="course"></app-card>
   </div>
   <div class="flex justify-center mt-16">
-    <app-button name="Other Collections" size="L" shade="D" animation="C"  ></app-button>
+    <app-button name="Other Collections" size="L" shade="D" animation="C" [routerLink]="['/all-collections']" ></app-button>
   </div>
 </section>

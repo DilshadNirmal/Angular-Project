@@ -39,18 +39,19 @@
                   </p>
                   <h2 class="text-4xl font-semibold text-slate-800 mb-12">
                       Amazing Books On Your Way Expand Your World
-                      <span class="text-emerald-600 relative">Read More.
+                      <span class="text-emerald-600 relative" >Read More.
                           <img class="absolute -bottom-6 right-0" src="../../assets/shapes/shape-4.webp" alt="">
                       </span>
                   </h2>
                   <p class="text-slate-500 text-xl font-light mb-6">
                       Take a Look of Our Books and Find Your Joy Of Learning
                   </p>
-                  <app-button name="Read a Book" size="L" shade="D" animation="C"></app-button>
+                  <app-button name="Read a Book" size="L" shade="D" animation="C" [routerLink]="['/all-collections']"></app-button>
               </div>
           </div>
           <div class="w-full z-20 relative">
-              <img class="pl-2 lg:pt-12 w-[70%] lg:w-full ml-auto" src="../../assets/model.png" alt="">
+              <!-- <img class="pl-2 lg:pt-12 w-[70%] lg:w-full ml-auto" src="../../assets/model.png" alt=""> -->
+              <app-book-stack></app-book-stack>
               <div class="hidden sm:flex absolute left-20 top-0 lg:top-20 mr-0 xl:mr-20 2xl:mr-32">
                   <div>
                       <div
