@@ -4,9 +4,9 @@
 @import 'tailwindcss/utilities';
 
 
-/* @layer components {
+@layer components {
   .container {
     @apply max-w-7xl px-5 mx-auto;
   }
-} */
+}
 

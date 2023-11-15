@@ -1,0 +1,172 @@
+[
+  {
+    "name":"Rich Dad Poor Dad",
+    "thumbnail":"book-1.jpg",
+    "author":"ROBERT T. KIYOSAKI",
+    "authorImage":"author-01.webp",
+    "category":"Business",
+    "hours":"08hr 15 mins",
+    "lectures":10,
+    "price":385,
+    "offerPrice":440,
+    "rating":4.9
+  },
+  {
+    "name":"The Power of Your Subconscious Mind",
+    "thumbnail":"image-15.png",
+    "author":"Dr.Joseph Murphy",
+    "authorImage":"author-02.jpg",
+    "category":"Motivational",
+    "hours":"09hr 15 mins",
+    "lectures":20,
+    "price":420,
+    "offerPrice":null,
+    "rating":4.9
+  },
+  {
+    "name":"I too had a love stroy",
+    "thumbnail":"image-3.jpeg",
+    "author":"Ravinder singh",
+    "authorImage":"author-03.jpeg",
+    "category":"Autobiography ",
+    "hours":"03hr 15 mins",
+    "lectures":5,
+    "price":295,
+    "offerPrice":340,
+    "rating":4.9
+  },
+  {
+    "name":"Anilaadum Mundril",
+    "thumbnail":"image-4.jpeg",
+    "author":"N.Muthukumar",
+    "authorImage":"author-04.png",
+    "category":"Motivational",
+    "hours":"03hr 15 mins",
+    "lectures":20,
+    "price":0,
+    "offerPrice":null,
+    "rating":4.9
+  },
+  {
+    "name":"ponniyin selvan",
+    "thumbnail":"image-5.jpeg",
+    "author":"kalki",
+    "authorImage":"author-05.jpg",
+    "category":"Historical",
+    "hours":"08hr 15 mins",
+    "lectures":50,
+    "price":136,
+    "offerPrice":null,
+    "rating":4.9
+  },
+  {
+    "name":"You Can Win",
+    "thumbnail":"image-6.jpg",
+    "author":"Shiv khera",
+    "authorImage":"author-06.webp",
+    "category":"Motivational",
+    "hours":"08hr 15 mins",
+    "lectures":11,
+    "price":237,
+    "offerPrice":null,
+    "rating":4.9
+  },
+  {
+    "name":"Black Holes:The Reith Lectures",
+    "thumbnail":"image-2.jpeg",
+    "author":"Stephen Hawking  ",
+    "authorImage":"author-07.webp",
+    "category":"Science",
+    "hours":"02hr 15 mins",
+    "lectures":6,
+    "price":237,
+    "offerPrice":null,
+    "rating":4.9
+  },
+  {
+    "name":"The TIME Machine ",
+    "thumbnail":"book-14.jpeg",
+    "author":"H.G.wells",
+    "authorImage":"author-08.webp",
+    "category":"Science",
+    "hours":"02hr 15 mins",
+    "lectures":16,
+    "price":385,
+    "offerPrice":440,
+    "rating":4.9
+  },
+  {
+    "name":"Mein Kampf ",
+    "thumbnail":"image-8.jpeg",
+    "author":"Adof Hitler",
+    "authorImage":"author-09.jpg",
+    "category":"Autobiography ",
+    "hours":"08hr 15 mins",
+    "lectures":27,
+    "price":420,
+    "offerPrice":null,
+    "rating":4.9
+  },
+  {
+    "name":"Wings of fire",
+    "thumbnail":"image-9.jpeg",
+    "author":"A.P.J Adul Kalam",
+    "authorImage":"author-10.jpg",
+    "category":"Autobiograohy",
+    "hours":"10hr 15 mins",
+    "lectures":24,
+    "price":295,
+    "offerPrice":340,
+    "rating":4.9
+  },
+  {
+    "name":"The OLd Man And The Sea",
+    "thumbnail":"image-10.jpg", 
+    "author":"Ernest Hemingway",
+    "authorImage":"author-11.jpg",
+    "category":"fictional",
+    "hours":"02hr 15 mins",
+    "lectures":5,
+    "price":0,
+    "offerPrice":null,
+    "rating":4.9
+  },
+  {
+    "name":"Psychology of Persuasion",
+    "thumbnail":"image-11.jpg",
+    "author":"Robert B . cialdini",
+    "authorImage":"author-15.jpeg",
+    "category":"Business",
+    "hours":"07hr 15 mins",
+    "lectures":7,
+    "price":136,
+    "offerPrice":null,
+    "rating":4.9
+  },
+  {
+    "name":"Man's Search For  Meaning",
+    "thumbnail":"image-12.jpeg",
+    "author":"Viktor E.Frankel",
+    "authorImage":"author-12.jpeg",
+    "category":"Biography",
+    "hours":"04hr 15 mins",
+    "lectures":6,
+    "price":237,
+    "offerPrice":null,
+    "rating":4.9
+  },
+  {
+    "name":"Harry Poter",
+    "thumbnail":"image-13.webp",
+    "author":"J.K Rowling",
+    "authorImage":"author-13.jpeg",
+    "category":"fictional",
+    "hours":"03hr 30 mins",
+    "lectures":18,
+    "price":237,
+    "offerPrice":null,
+    "rating":4.9
+  }
+  
+  
+]

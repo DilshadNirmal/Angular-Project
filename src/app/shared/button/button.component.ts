@@ -6,24 +6,25 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./button.component.css']
 })
 export class ButtonComponent implements OnInit {
+
   @Input('disabled')
   disabled = false;
 
   @Input('size')
-  size = 'S';
+  size = 'S'; // S,M,L
 
   @Input('shade')
-  shade = 'NA';
+  shade = 'NA'; // D,L,W,NA
 
   @Input('animation')
-  animation = 'F';
+  animation='F'; // C,F
 
   @Input('name')
-  name = '';
+  name='';
 
   constructor() { }
 
   ngOnInit(): void {
-
   }
+
 }

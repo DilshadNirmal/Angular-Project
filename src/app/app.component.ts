@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,7 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+<<<<<<< HEAD
   title = 'Angular-Project';
+=======
+
+  title = '';
+
+>>>>>>> b7402df1c7010cf364ee6fedaab7fdd44584513a
   isMenuScrolled = false;
   isSidebarShowing = false;
 
@@ -16,9 +22,17 @@ export class AppComponent {
       this.isMenuScrolled = true;
     else
       this.isMenuScrolled = false;
+<<<<<<< HEAD
   }
 
 
+=======
+
+
+    // console.log(this.isMenuScrolled)
+  }
+
+>>>>>>> b7402df1c7010cf364ee6fedaab7fdd44584513a
   openSideBar() {
     this.isSidebarShowing = true;
   }
@@ -27,3 +41,11 @@ export class AppComponent {
     this.isSidebarShowing = false;
   }
 
+<<<<<<< HEAD
+=======
+  scrollToTop() {
+    document.body.scrollIntoView({ behavior: 'smooth' })
+  }
+}
+
+>>>>>>> b7402df1c7010cf364ee6fedaab7fdd44584513a
