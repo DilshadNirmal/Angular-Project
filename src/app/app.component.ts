@@ -7,8 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular-Project';
-
+  isMenuScrolled = false;
   isSidebarShowing = false;
+
+  @HostListener('window:scroll', ['$event'])
+  scrollCheck() {
+    if (window.pageYOffset > 100)
+      this.isMenuScrolled = true;
+    else
+      this.isMenuScrolled = false;
+  }
+
 
   openSideBar() {
     this.isSidebarShowing = true;
@@ -17,4 +26,4 @@ export class AppComponent {
   closeSideBar() {
     this.isSidebarShowing = false;
   }
-}
+
