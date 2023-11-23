@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SubscribeService } from 'src/app/subscribe.service';
 
 @Component({
   selector: 'app-footer',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
-  constructor() { }
+  constructor(private SubscribeService: SubscribeService) { }
 
   ngOnInit(): void {
+  }
+
+  ngClick() {
+    this.SubscribeService.assignValue().subscribe((result)=> {
+      alert('you have been subscribed! 😊')
+    });
   }
 
 }

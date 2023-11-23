@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule} from '@angular/common/http';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -22,8 +23,8 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { EmailComponent } from './shared/email/email.component';
 import { PhoneComponent } from './shared/phone/phone.component';
 import { SocialLinksComponent } from './shared/social-links/social-links.component';
-import { SubscribeFormComponent } from './shared/subscribe-form/subscribe-form.component';
 import { BookStackComponent } from './shared/book-stack/book-stack.component';
+import { SubscribeService } from './subscribe.service';
 
 
 @NgModule({
@@ -46,7 +47,6 @@ import { BookStackComponent } from './shared/book-stack/book-stack.component';
     EmailComponent,
     PhoneComponent,
     SocialLinksComponent,
-    SubscribeFormComponent,
     BookStackComponent,
   ],
   imports: [
@@ -54,8 +54,18 @@ import { BookStackComponent } from './shared/book-stack/book-stack.component';
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
+    ReactiveFormsModule
   ],
-  providers: [],
+  providers: [SubscribeService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+
+  constructor(private SubscribeService: SubscribeService) {}
+
+  ngClick() {
+    this.SubscribeService.assignValue().subscribe((result) => {
+      console.log(result);
+    });
+  }
+}

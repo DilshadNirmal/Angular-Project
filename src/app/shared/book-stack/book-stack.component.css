@@ -25,7 +25,7 @@
 .big-card:nth-child(2) {
   transform: translateX(-10%) rotate(-1deg);
 
-  background-image: url('../../../assets/courses/image-2.jpg');
+  background-image: url('../../../assets/courses/image-2.jpeg');
   background-size: 100%;
 }
 
