@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-button',
@@ -22,9 +23,15 @@ export class ButtonComponent implements OnInit {
   @Input('name')
   name='';
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
+
+  onButtonClick(event: Event) {
+    event.preventDefault();
+    this.router.navigate(['/footer']);
+  }
+
 
 }

@@ -1,4 +1,4 @@
-<button [disabled]="this.disabled" class="disabled:opacity-30 relative group transition-all duration-500 overflow-clip
+<button [disabled]="this.disabled" (click)="onButtonClick($event)" class="disabled:opacity-30 relative group transition-all duration-500 overflow-clip
 {{
   !this.disabled && this.animation==='F'&&this.shade==='D'?
     'hover:bg-emerald-50':
